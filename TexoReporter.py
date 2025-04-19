@@ -37,8 +37,8 @@ async def banner(a):
 async def main():
     await banner(True)
     global client
-    api_id = 0000000
-    api_hash = ""
+    api_id = 24457605
+    api_hash = "8e0aafd95b381b774ad5bcde5a716ac6"
     client = TelegramClient("data", api_id, api_hash)
     await client.connect()
     if not await client.is_user_authorized():
